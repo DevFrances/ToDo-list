@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Miamee's:: ToDoApp</title>
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1.]"> -->
+
+        <!-- Regular stylesheet -->
+        <link href="css/todo.css" type="text/css" rel="stylesheet">
+        
+        <!-- Google fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    
+        <!-- Fontawesone cdn -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+         integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    </head>
+    <body>
+        <header id="header">
+            <div class="header-item">
+                <div><h1>Miamee's ToDoApp</h1></div>
+                <input size="50" type="text" placeholder="Search..." id="filter">
+            </div>
+            
+        </header>
+        <main>
+            <div class="section-A">
+                <div class="main-form">
+                    <h2>Add ToDo</h2>
+                    <form id="form-elem">
+                        <input size="50" type="text" id="input-text" autocomplete="off" focus>
+                        <input type="submit" value="Add" onclick="cleartext()">
+                    </form>
+                </div>
+            </div>
+
+            <!-- list item -->
+            <div class="section-B">
+                <!-- <div class="todo-list"> -->
+                    <ul id="list">
+                        <h3 style>Chiamaka, what would you like to get done?</h3>
+                        <div class="list-li">
+                            <!-- <li class="list-item"> <button>X</button></li> -->
+                            <!-- <li class="list-item">Run come codes  <button>X</button></li>
+                            <li class="list-item">Write test cases  <button>X</button></li>
+                            <li class="list-item">Call the love of my life  <button>X</button></li> -->
+
+                        </div>
+                    </ul>
+                <!-- </div> -->
+            </div>
+        </main>
+        <script src="jquery-3.4.1.min.js"></script>
+        <script src="todo.js"></script>
+    </body>
+</html>
